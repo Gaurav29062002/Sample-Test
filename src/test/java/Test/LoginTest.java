@@ -19,7 +19,7 @@ public class LoginTest extends BaseTest{
 		lp.loginbtn();
 		
 		Thread.sleep(5000);
-		Assert.assertTrue(lp.getmessage().contains("Secure Area"));
+		Assert.assertTrue(lp.getmessage().contains("Secure A rea"));
 	}
 	
 
