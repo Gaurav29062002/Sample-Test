@@ -14,7 +14,7 @@ public class LoginPage {
 	By username = By.xpath("//input[@id='username']");
 	By password = By.xpath("//input[@id='password']");
 	By lgnbtn = By.xpath("//i[@class='fa fa-2x fa-sign-in']");
-	By message = By.xpath("//h2[normalize-space()='Secure Area']");
+	By message = By.xpath("//h4[@class='subheader']");
 	
 	public void enterusername(String user) {
 		driver.findElement(username).sendKeys(user);

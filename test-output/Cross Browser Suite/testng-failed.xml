@@ -16,28 +16,4 @@
       </class> <!-- Test.LoginTest -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
-  <test thread-count="5" name="Firefox Test(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="Test.LoginTest">
-        <methods>
-          <include name="TearDown"/>
-          <include name="logintest"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- Test.LoginTest -->
-    </classes>
-  </test> <!-- Firefox Test(failed) -->
-  <test thread-count="5" name="Edge Test(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="Test.LoginTest">
-        <methods>
-          <include name="TearDown"/>
-          <include name="logintest"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- Test.LoginTest -->
-    </classes>
-  </test> <!-- Edge Test(failed) -->
 </suite> <!-- Failed suite [Cross Browser Suite] -->
