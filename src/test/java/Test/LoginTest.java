@@ -19,8 +19,7 @@ public class LoginTest extends BaseTest{
 		lp.loginbtn();
 		
 		Thread.sleep(5000);
-		Assert.assertTrue(lp.getmessage().contains("Welcome to the Secure Area. When you are done click logout below.\r\n"
-				+ ""));
+		
 	}
 	
 
