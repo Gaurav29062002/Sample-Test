@@ -18,7 +18,7 @@ public class LoginTest extends BaseTest{
 		lp.enterpassword(prop.getProperty("password"));
 		lp.loginbtn();
 		
-		Thread.sleep(5000);
+		
 		
 	}
 	
